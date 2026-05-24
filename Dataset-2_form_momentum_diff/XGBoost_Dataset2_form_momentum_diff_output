@@ -1,0 +1,106 @@
+XGBoost Dataset-2 one-feature experiment
+Dataset: Dataset-2.csv
+Added feature: form_momentum_diff
+Feature description: Whether each team's short-term form is rising or falling compared with its last-10 form.
+Rows after duplicate removal: 1192
+Target column: home_win
+Split: stratified train/test with test_size=0.25 and random_state=42
+Train rows: 894
+Test rows: 298
+
+Train accuracy: 0.9832
+Test accuracy: 0.8221
+
+Input policy:
+- Starts from the same pre-match feature set as XGBoost_Dataset2_Prematch.ipynb.
+- Adds exactly one engineered pre-match feature: form_momentum_diff.
+- Does not use post-match scores, final result text, or the target as input.
+
+Excluded post-match/label columns:
+- home_result
+- away_result
+- partial_result
+- result
+- home_win
+- market_favorite_won_avg
+
+Excluded identifier columns:
+- event_id
+- encoded_event_id
+- url
+
+Feature columns used (57):
+- source_year
+- match_date
+- timestamp
+- home_team
+- away_team
+- home_avg_odds
+- away_avg_odds
+- home_max_odds
+- away_max_odds
+- home_odds_count
+- away_odds_count
+- market_home_prob_avg
+- market_away_prob_avg
+- market_home_prob_max
+- market_away_prob_max
+- market_home_pick_avg
+- market_home_pick_max
+- market_favorite_prob_avg
+- bookmakers_count
+- venue
+- venue_town
+- home_prior_matches
+- home_prior_win_rate
+- home_prior_home_win_rate
+- home_prior_away_win_rate
+- home_prior_fav_win_rate
+- home_prior_dog_win_rate
+- home_recent10_win_rate
+- home_recent3_win_rate
+- home_recent_market_prob
+- home_rest_days
+- home_elo
+- away_prior_matches
+- away_prior_win_rate
+- away_prior_home_win_rate
+- away_prior_away_win_rate
+- away_prior_fav_win_rate
+- away_prior_dog_win_rate
+- away_recent10_win_rate
+- away_recent3_win_rate
+- away_recent_market_prob
+- away_rest_days
+- away_elo
+- elo_diff
+- abs_elo_diff
+- prior_match_diff
+- prior_win_rate_diff
+- recent10_win_rate_diff
+- recent3_win_rate_diff
+- rest_days_diff
+- market_prob_diff_avg
+- market_prob_diff_max
+- market_home_logit_avg
+- h2h_prior_matches
+- h2h_home_team_win_rate
+- h2h_home_side_win_rate
+- form_momentum_diff
+
+Numeric feature columns (52): source_year, timestamp, home_avg_odds, away_avg_odds, home_max_odds, away_max_odds, home_odds_count, away_odds_count, market_home_prob_avg, market_away_prob_avg, market_home_prob_max, market_away_prob_max, market_home_pick_avg, market_home_pick_max, market_favorite_prob_avg, bookmakers_count, home_prior_matches, home_prior_win_rate, home_prior_home_win_rate, home_prior_away_win_rate, home_prior_fav_win_rate, home_prior_dog_win_rate, home_recent10_win_rate, home_recent3_win_rate, home_recent_market_prob, home_rest_days, home_elo, away_prior_matches, away_prior_win_rate, away_prior_home_win_rate, away_prior_away_win_rate, away_prior_fav_win_rate, away_prior_dog_win_rate, away_recent10_win_rate, away_recent3_win_rate, away_recent_market_prob, away_rest_days, away_elo, elo_diff, abs_elo_diff, prior_match_diff, prior_win_rate_diff, recent10_win_rate_diff, recent3_win_rate_diff, rest_days_diff, market_prob_diff_avg, market_prob_diff_max, market_home_logit_avg, h2h_prior_matches, h2h_home_team_win_rate, h2h_home_side_win_rate, form_momentum_diff
+Categorical feature columns (5): match_date, home_team, away_team, venue, venue_town
+
+Test classification report:
+              precision    recall  f1-score   support
+
+           0     0.7786    0.8095    0.7938       126
+           1     0.8563    0.8314    0.8437       172
+
+    accuracy                         0.8221       298
+   macro avg     0.8175    0.8205    0.8187       298
+weighted avg     0.8235    0.8221    0.8226       298
+
+
+Test confusion matrix [[TN, FP], [FN, TP]]:
+[[102, 24], [29, 143]]

@@ -1,0 +1,41 @@
+{
+    "feature_engineering_used": "Pre-match Colley Matrix team-strength only",
+    "elo_used": false,
+    "recent_form_used": false,
+    "bayesian_history_win_rate_features_used": false,
+    "opponent_adjusted_historical_strength_used": false,
+    "best_colley_prior_scale_selected_from_validation_only": 8.0,
+    "best_xgboost_config_selected_from_validation_only": "regularized_depth2_small",
+    "model_selection_metric": "validation_accuracy_then_validation_balanced_accuracy_then_validation_roc_auc",
+    "rows_used_after_cleaning": 1891,
+    "train_validation_rows": 1512,
+    "test_rows": 379,
+    "train_validation_accuracy": 0.6871693121693122,
+    "test_accuracy": 0.6939313984168866,
+    "test_balanced_accuracy": 0.6745433789954338,
+    "test_roc_auc": 0.715482305936073,
+    "features_used": [
+        "team1",
+        "team2",
+        "venue",
+        "team1_colley_strength_pre",
+        "team2_colley_strength_pre",
+        "colley_strength_diff",
+        "team1_colley_matches_pre",
+        "team2_colley_matches_pre",
+        "colley_matches_diff"
+    ],
+    "excluded_for_leakage_reason": "All current-match scorecard/player performance columns, toss_winner, team1_bat_first, match_result, match_outcome_type, and match_winner as feature",
+    "cleaning_notes": [
+        "West is standardised to West Indies",
+        "broken scraped venue menu text is replaced with Unknown",
+        "only resolved matches where winner equals team1 or team2 are kept",
+        "chronological train/validation/test split is used"
+    ],
+    "anti_leakage_notes": [
+        "Colley Matrix strength features are written before updating with the current match result",
+        "No current-match scorecard field is used as a model feature",
+        "The Colley prior and XGBoost config are selected using validation data only, not the test set",
+        "Later test matches may use earlier test-period results because those results would be known before the later match date in a chronological pre-match simulation"
+    ]
+}

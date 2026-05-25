@@ -1,0 +1,39 @@
+{
+    "model": "XGBoostClassifier",
+    "feature_engineering": "Pre-match EWMA recent form rating only; Elo removed",
+    "best_recent_form_alpha": 0.2,
+    "threshold": 0.5,
+    "original_rows": 1979,
+    "clean_resolved_rows_used": 1891,
+    "train_plus_validation_rows": 1512,
+    "test_rows": 379,
+    "train_plus_validation_accuracy": 0.6746031746031746,
+    "test_accuracy": 0.6437994722955145,
+    "test_balanced_accuracy": 0.6227454337899543,
+    "test_roc_auc": 0.6579908675799085,
+    "test_start_date": "2022-06-16",
+    "test_end_date": "2024-11-17",
+    "features_used": [
+        "team1",
+        "team2",
+        "venue",
+        "team1_recent_form_pre",
+        "team2_recent_form_pre",
+        "recent_form_diff"
+    ],
+    "excluded_for_leakage_reason": "All scorecard/player performance columns, toss_winner, team1_bat_first, match_result, match_outcome_type, match_winner as feature",
+    "xgboost_params": {
+        "n_estimators": 120,
+        "max_depth": 2,
+        "learning_rate": 0.06,
+        "subsample": 0.9,
+        "colsample_bytree": 0.9,
+        "min_child_weight": 5,
+        "reg_lambda": 3.0,
+        "reg_alpha": 0.1,
+        "eval_metric": "logloss",
+        "random_state": 42,
+        "n_jobs": 2,
+        "tree_method": "hist"
+    }
+}

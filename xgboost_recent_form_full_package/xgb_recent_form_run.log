@@ -1,0 +1,87 @@
+Setup complete.
+Using local dataset file: /mnt/data/Dataset-1.csv
+DATA_PATH  = /mnt/data/Dataset-1.csv
+OUTPUT_DIR = /mnt/data/xgb_recent_form_outputs
+Original rows: 1979
+Rows after cleaning/resolved-match filtering: 1891
+Rows removed: 88
+Date range: 1993-05-19 to 2024-11-17
+Target distribution:
+team1_won
+team1_won    1088
+team2_won     803
+Name: count, dtype: int64
+Target distribution percentage:
+team1_won
+team1_won    57.54
+team2_won    42.46
+Name: proportion, dtype: float64
+Best recent-form alpha selected from validation only: 0.2
+Final Results
+-------------
+Best alpha: 0.2
+Train + validation accuracy: 0.6746
+Test accuracy: 0.6438
+Test balanced accuracy: 0.6227
+Test ROC-AUC: 0.6580
+
+Classification report:
+              precision    recall  f1-score   support
+
+   team2_won       0.60      0.49      0.54       160
+   team1_won       0.67      0.76      0.71       219
+
+    accuracy                           0.64       379
+   macro avg       0.63      0.62      0.62       379
+weighted avg       0.64      0.64      0.64       379
+
+Saved result files to: /mnt/data/xgb_recent_form_outputs
+['classification_report.csv', 'cleaned_dataset_with_recent_form_features.csv', 'confusion_matrix.csv', 'metrics_summary.json', 'split_summary.csv', 'test_predictions.csv', 'validation_alpha_results.csv', 'xgboost_recent_form_pipeline.joblib']
+XGBoost Recent Form Model Summary
+=================================
+
+Task:
+Predict whether team1 wins a cricket ODI match using pre-match data.
+
+Model:
+Plain XGBoostClassifier.
+
+Only feature engineering used:
+Pre-match EWMA recent form rating.
+- team1_recent_form_pre
+- team2_recent_form_pre
+- recent_form_diff
+
+Elo status:
+Elo ratings are completely removed and not used anywhere.
+
+Leakage control:
+The model excludes post-match scorecard columns, match_result, match_outcome_type,
+toss_winner, team1_bat_first, and match_winner as a feature.
+The recent-form feature is calculated before each match is updated with that match result.
+
+Selected alpha from validation only:
+0.2
+
+Rows:
+Clean/resolved rows used: 1891
+Train + validation rows: 1512
+Test rows: 379
+
+Date ranges:
+Train + validation: 1993-05-19 to 2022-06-15
+Test: 2022-06-16 to 2024-11-17
+
+Final metrics:
+Train + validation accuracy: 0.6746
+Test accuracy: 0.6438
+Test balanced accuracy: 0.6227
+Test ROC-AUC: 0.6580
+
+Important thesis note:
+Your dataset has team1_bat_first = 1 for all rows, which suggests team1 may be the batting-first team.
+This code excludes team1_bat_first and toss_winner, but if team1/team2 ordering itself was created after toss,
+then this is safer as a post-toss/team-order prediction setup than as a strict before-toss setup.
+For strict before-toss prediction, team ordering should be made independent of innings order.
+
+Zipped results saved to: /mnt/data/xgb_recent_form_outputs.zip

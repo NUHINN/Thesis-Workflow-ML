@@ -1,0 +1,11 @@
+{
+    "threshold": 0.4900000000000001,
+    "train_accuracy": 0.6640211640211641,
+    "test_accuracy": 0.6543535620052771,
+    "test_balanced_accuracy": 0.6436643835616438,
+    "test_roc_auc": 0.6889126712328766,
+    "train_rows": 1512,
+    "test_rows": 379,
+    "test_start_date": "2022-06-16",
+    "test_end_date": "2024-11-17"
+}

@@ -1,0 +1,380 @@
+match_code,date,team1,team2,venue,match_winner,target_team1_win,predicted_team1_win_probability,predicted_team1_win,predicted_winner,correct_prediction
+4597,2022-06-16,Sri Lanka,Australia,Pallekele International Cricket Stadium,Sri Lanka,1,0.33800995,0,Australia,False
+4598,2022-06-17,Netherlands,England,VRA Ground,England,0,0.27817762,0,England,True
+4599,2022-06-19,Netherlands,England,VRA Ground,England,0,0.27817762,0,England,True
+4600,2022-06-19,Sri Lanka,Australia,R Premadasa Stadium,Sri Lanka,1,0.37640736,0,Australia,False
+4601,2022-06-21,Sri Lanka,Australia,R Premadasa Stadium,Sri Lanka,1,0.34401762,0,Australia,False
+4602,2022-06-22,Netherlands,England,VRA Ground,England,0,0.27817762,0,England,True
+4603,2022-06-24,Sri Lanka,Australia,R Premadasa Stadium,Australia,0,0.3784407,0,Australia,True
+4604,2022-07-10,Scotland,Namibia,Unknown,Scotland,1,0.6225133,1,Scotland,True
+4605,2022-07-10,Ireland,New Zealand,Unknown,New Zealand,0,0.28261578,0,New Zealand,True
+4606,2022-07-10,West Indies,Bangladesh,Providence Stadium,Bangladesh,0,0.32959324,0,Bangladesh,True
+4607,2022-07-11,Namibia,Nepal,Cambusdoon New Ground,Namibia,1,0.6301187,1,Namibia,True
+4608,2022-07-12,Ireland,New Zealand,Unknown,New Zealand,0,0.28261578,0,New Zealand,True
+4609,2022-07-12,England,India,Kennington Oval,India,0,0.68647313,1,England,False
+4610,2022-07-13,Scotland,Nepal,Unknown,Nepal,0,0.6686128,1,Scotland,False
+4611,2022-07-13,West Indies,Bangladesh,Providence Stadium,Bangladesh,0,0.32959324,0,Bangladesh,True
+4612,2022-07-14,Scotland,Namibia,Unknown,Scotland,1,0.6225133,1,Scotland,True
+4613,2022-07-14,England,India,Unknown,England,1,0.68647313,1,England,True
+4614,2022-07-15,Ireland,New Zealand,Unknown,New Zealand,0,0.28261578,0,New Zealand,True
+4615,2022-07-16,Namibia,Nepal,Cambusdoon New Ground,Namibia,1,0.63323516,1,Namibia,True
+4616,2022-07-16,West Indies,Bangladesh,Providence Stadium,Bangladesh,0,0.3318422,0,Bangladesh,True
+4617,2022-07-17,Scotland,Nepal,Unknown,Scotland,1,0.6307036,1,Scotland,True
+4618,2022-07-17,England,India,Unknown,India,0,0.68647313,1,England,False
+4619,2022-07-19,England,South Africa,Riverside Ground,South Africa,0,0.6896435,1,England,False
+4620,2022-07-22,England,South Africa,Unknown,England,1,0.6896435,1,England,True
+4621,2022-07-22,West Indies,India,Park Oval,India,0,0.28883615,0,India,True
+4623,2022-07-24,West Indies,India,Park Oval,India,0,0.28883615,0,India,True
+4624,2022-07-27,West Indies,India,Park Oval,India,0,0.282628,0,India,True
+4625,2022-07-31,Scotland,New Zealand,Grange Cricket Club,New Zealand,0,0.30217448,0,New Zealand,True
+4626,2022-08-05,Zimbabwe,Bangladesh,Harare Sports Club,Zimbabwe,1,0.2587408,0,Bangladesh,False
+4627,2022-08-07,Zimbabwe,Bangladesh,Harare Sports Club,Zimbabwe,1,0.2587408,0,Bangladesh,False
+4628,2022-08-10,Zimbabwe,Bangladesh,Harare Sports Club,Bangladesh,0,0.2587408,0,Bangladesh,True
+4629,2022-08-10,Scotland,United Arab Emirates,Mannofield Park,Scotland,1,0.63381803,1,Scotland,True
+4630,2022-08-11,United Arab Emirates,United States,Mannofield Park,United States,0,0.48252743,0,United States,True
+4631,2022-08-13,Scotland,United States,Mannofield Park,Scotland,1,0.6607729,1,Scotland,True
+4632,2022-08-14,Scotland,United Arab Emirates,Mannofield Park,Scotland,1,0.7103074,1,Scotland,True
+4634,2022-08-16,Netherlands,Pakistan,Unknown,Pakistan,0,0.21742989,0,Pakistan,True
+4635,2022-08-17,Scotland,United States,Mannofield Park,United States,0,0.6727996,1,Scotland,False
+4636,2022-08-17,West Indies,New Zealand,Kensington Oval,West Indies,1,0.28563246,0,New Zealand,False
+4637,2022-08-18,Zimbabwe,India,Harare Sports Club,India,0,0.27503148,0,India,True
+4638,2022-08-18,Netherlands,Pakistan,Unknown,Pakistan,0,0.21427387,0,Pakistan,True
+4639,2022-08-19,West Indies,New Zealand,Kensington Oval,New Zealand,0,0.2829244,0,New Zealand,True
+4640,2022-08-20,Zimbabwe,India,Harare Sports Club,India,0,0.27503148,0,India,True
+4641,2022-08-21,Netherlands,Pakistan,Unknown,Pakistan,0,0.23419379,0,Pakistan,True
+4642,2022-08-21,West Indies,New Zealand,Kensington Oval,New Zealand,0,0.2829244,0,New Zealand,True
+4643,2022-08-22,Zimbabwe,India,Harare Sports Club,India,0,0.27503148,0,India,True
+4644,2022-08-28,Australia,Zimbabwe,Riverway Stadium,Australia,1,0.88216263,1,Australia,True
+4645,2022-08-31,Australia,Zimbabwe,Riverway Stadium,Australia,1,0.88653964,1,Australia,True
+4646,2022-09-03,Australia,Zimbabwe,Riverway Stadium,Zimbabwe,0,0.88653964,1,Australia,False
+4647,2022-09-06,Australia,New Zealand,Unknown,Australia,1,0.5040518,1,Australia,True
+4648,2022-09-08,Australia,New Zealand,Unknown,Australia,1,0.51135385,1,Australia,True
+4649,2022-09-11,Australia,New Zealand,Unknown,Australia,1,0.51474786,1,Australia,True
+4651,2022-09-13,Papua New Guinea,United States,Amini Park,Papua New Guinea,1,0.37769005,0,United States,False
+4652,2022-09-15,Namibia,United States,Amini Park,Namibia,1,0.6225133,1,Namibia,True
+4653,2022-09-17,Namibia,United States,Amini Park,Namibia,1,0.6401505,1,Namibia,True
+4654,2022-09-20,Papua New Guinea,Namibia,Amini Park,Namibia,0,0.33226764,0,Namibia,True
+4655,2022-09-21,Papua New Guinea,Namibia,Amini Park,Namibia,0,0.33226764,0,Namibia,True
+4656,2022-10-06,India,South Africa,Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium,South Africa,0,0.69260377,1,India,False
+4657,2022-10-09,India,South Africa,JSCA International Stadium,India,1,0.68620247,1,India,True
+4658,2022-10-11,India,South Africa,Arun Jaitley Stadium,India,1,0.69260377,1,India,True
+4659,2022-11-14,Nepal,United Arab Emirates,Tribhuvan University International Cricket Ground,United Arab Emirates,0,0.58825284,1,Nepal,False
+4661,2022-11-16,Nepal,United Arab Emirates,Tribhuvan University International Cricket Ground,Nepal,1,0.51339227,1,Nepal,True
+4660,2022-11-17,Australia,England,Adelaide Oval,Australia,1,0.5073636,1,Australia,True
+4662,2022-11-18,Nepal,United Arab Emirates,Tribhuvan University International Cricket Ground,Nepal,1,0.58825284,1,Nepal,True
+4663,2022-11-19,Australia,England,Sydney Cricket Ground,Australia,1,0.5505426,1,Australia,True
+4664,2022-11-19,Namibia,Papua New Guinea,Wanderers Cricket Ground,Namibia,1,0.75119513,1,Namibia,True
+4665,2022-11-20,Namibia,United States,Wanderers Cricket Ground,United States,0,0.6556043,1,Namibia,False
+4666,2022-11-22,Australia,England,Melbourne Cricket Ground,Australia,1,0.6673709,1,Australia,True
+4667,2022-11-22,Papua New Guinea,United States,Wanderers Cricket Ground,United States,0,0.40984046,0,United States,True
+4668,2022-11-23,Namibia,Papua New Guinea,Wanderers Cricket Ground,Namibia,1,0.75119513,1,Namibia,True
+4669,2022-11-25,New Zealand,India,Eden Park,New Zealand,1,0.71289945,1,New Zealand,True
+4670,2022-11-25,Papua New Guinea,United States,Wanderers Cricket Ground,United States,0,0.37769005,0,United States,True
+4671,2022-11-25,Sri Lanka,Afghanistan,Pallekele International Cricket Stadium,Afghanistan,0,0.6727996,1,Sri Lanka,False
+4672,2022-11-26,Namibia,United States,Wanderers Cricket Ground,Namibia,1,0.6391336,1,Namibia,True
+4675,2022-11-30,Sri Lanka,Afghanistan,Pallekele International Cricket Stadium,Sri Lanka,1,0.6397311,1,Sri Lanka,True
+4677,2022-12-01,Namibia,Scotland,United Cricket Club,Scotland,0,0.5913132,1,Namibia,False
+4679,2022-12-04,Bangladesh,India,Shere Bangla National Stadium,Bangladesh,1,0.43741006,0,India,False
+4681,2022-12-04,Nepal,Scotland,United Cricket Club,Scotland,0,0.33713502,0,Scotland,True
+4680,2022-12-05,Namibia,Scotland,United Cricket Club,Namibia,1,0.4018523,0,Scotland,False
+4682,2022-12-07,Bangladesh,India,Shere Bangla National Stadium,Bangladesh,1,0.44490948,0,India,False
+4683,2022-12-07,Namibia,Nepal,United Cricket Club,Namibia,1,0.7014942,1,Namibia,True
+4684,2022-12-08,Nepal,Scotland,United Cricket Club,Scotland,0,0.33713502,0,Scotland,True
+4685,2022-12-10,Bangladesh,India,Zahur Ahmed Chowdhury Stadium,India,0,0.48094377,0,India,True
+4686,2023-01-09,Pakistan,New Zealand,National Stadium,Pakistan,1,0.5111701,1,Pakistan,True
+4687,2023-01-10,India,Sri Lanka,Barsapara Cricket Stadium,India,1,0.7891531,1,India,True
+4688,2023-01-11,Pakistan,New Zealand,National Stadium,New Zealand,0,0.55137724,1,Pakistan,False
+4689,2023-01-12,India,Sri Lanka,Unknown,India,1,0.7891531,1,India,True
+4690,2023-01-13,Pakistan,New Zealand,National Stadium,New Zealand,0,0.5111701,1,Pakistan,False
+4691,2023-01-15,India,Sri Lanka,Greenfield International Stadium,India,1,0.7964267,1,India,True
+4692,2023-01-18,India,New Zealand,Rajiv Gandhi International Stadium,India,1,0.63423723,1,India,True
+4693,2023-01-18,Zimbabwe,Ireland,Harare Sports Club,Zimbabwe,1,0.41262066,0,Ireland,False
+4694,2023-01-21,Zimbabwe,Ireland,Harare Sports Club,Ireland,0,0.4308723,0,Ireland,True
+4695,2023-01-21,India,New Zealand,Shaheed Veer Narayan Sing International Stadium,India,1,0.664439,1,India,True
+4697,2023-01-24,India,New Zealand,Holkar Cricket Stadium,India,1,0.68620247,1,India,True
+4698,2023-01-27,South Africa,England,Mangaung Oval,South Africa,1,0.56623054,1,South Africa,True
+4699,2023-01-29,South Africa,England,Mangaung Oval,South Africa,1,0.6339722,1,South Africa,True
+4700,2023-02-01,South Africa,England,Diamond Oval,England,0,0.66418433,1,South Africa,False
+4701,2023-02-14,Nepal,Namibia,Tribhuvan University International Cricket Ground,Nepal,1,0.33713502,0,Namibia,False
+4702,2023-02-15,Namibia,Scotland,Tribhuvan University International Cricket Ground,Scotland,0,0.4043709,0,Scotland,True
+4703,2023-02-17,Nepal,Scotland,Tribhuvan University International Cricket Ground,Nepal,1,0.33479983,0,Scotland,False
+4704,2023-02-18,Nepal,Namibia,Tribhuvan University International Cricket Ground,Nepal,1,0.38282484,0,Namibia,False
+4705,2023-02-20,Namibia,Scotland,Tribhuvan University International Cricket Ground,Scotland,0,0.41098383,0,Scotland,True
+4706,2023-02-21,Nepal,Scotland,Tribhuvan University International Cricket Ground,Nepal,1,0.32959324,0,Scotland,False
+4707,2023-02-23,United Arab Emirates,Namibia,Dubai International Cricket Stadium,United Arab Emirates,1,0.4307006,0,Namibia,False
+4708,2023-02-25,United Arab Emirates,Namibia,Dubai International Cricket Stadium,Namibia,0,0.48252743,0,Namibia,True
+4709,2023-02-27,Nepal,Papua New Guinea,Dubai International Cricket Stadium,Nepal,1,0.74920017,1,Nepal,True
+4710,2023-02-28,United Arab Emirates,Papua New Guinea,Dubai International Cricket Stadium,Papua New Guinea,0,0.71969676,1,United Arab Emirates,False
+4711,2023-03-01,Bangladesh,England,Shere Bangla National Stadium,England,0,0.47584528,0,England,True
+4712,2023-03-02,United Arab Emirates,Nepal,Dubai International Cricket Stadium,United Arab Emirates,1,0.4260155,0,Nepal,False
+4713,2023-03-03,Bangladesh,England,Shere Bangla National Stadium,England,0,0.44418773,0,England,True
+4714,2023-03-03,Nepal,Papua New Guinea,Dubai International Cricket Stadium,Nepal,1,0.7149377,1,Nepal,True
+4715,2023-03-05,United Arab Emirates,Papua New Guinea,Dubai International Cricket Stadium,Papua New Guinea,0,0.68986833,1,United Arab Emirates,False
+4716,2023-03-06,United Arab Emirates,Nepal,Dubai International Cricket Stadium,Nepal,0,0.4260155,0,Nepal,True
+4717,2023-03-06,Bangladesh,England,Zahur Ahmed Chowdhury Stadium,Bangladesh,1,0.44418773,0,England,False
+4718,2023-03-09,Nepal,Papua New Guinea,Tribhuvan University International Cricket Ground,Nepal,1,0.74078846,1,Nepal,True
+4719,2023-03-10,Papua New Guinea,United Arab Emirates,Tribhuvan University International Cricket Ground,Papua New Guinea,1,0.42734465,0,United Arab Emirates,False
+4720,2023-03-12,Nepal,United Arab Emirates,Tribhuvan University International Cricket Ground,Nepal,1,0.6975047,1,Nepal,True
+4721,2023-03-13,Nepal,Papua New Guinea,Tribhuvan University International Cricket Ground,Nepal,1,0.74920017,1,Nepal,True
+4722,2023-03-15,Papua New Guinea,United Arab Emirates,Tribhuvan University International Cricket Ground,United Arab Emirates,0,0.43609518,0,United Arab Emirates,True
+4723,2023-03-16,Nepal,United Arab Emirates,Tribhuvan University International Cricket Ground,Nepal,1,0.7123074,1,Nepal,True
+4725,2023-03-17,India,Australia,Wankhede Stadium,India,1,0.6843224,1,India,True
+4726,2023-03-18,Bangladesh,Ireland,Sylhet Stadium,Bangladesh,1,0.78232586,1,Bangladesh,True
+4727,2023-03-18,South Africa,West Indies,Buffalo Park,West Indies,0,0.82498384,1,South Africa,False
+4728,2023-03-19,India,Australia,Dr YS Rajasekhara Reddy Cricket Stadium,Australia,0,0.6843224,1,India,False
+4730,2023-03-21,Zimbabwe,Netherlands,Harare Sports Club,Netherlands,0,0.47910756,0,Netherlands,True
+4731,2023-03-21,South Africa,West Indies,Senwes Park,South Africa,1,0.8251837,1,South Africa,True
+4732,2023-03-22,India,Australia,MA Chidambaram Stadium,Australia,0,0.67115015,1,India,False
+4733,2023-03-23,Zimbabwe,Netherlands,Harare Sports Club,Zimbabwe,1,0.43609518,0,Netherlands,False
+4734,2023-03-23,Bangladesh,Ireland,Sylhet Stadium,Bangladesh,1,0.81192434,1,Bangladesh,True
+4735,2023-03-25,New Zealand,Sri Lanka,Eden Park,New Zealand,1,0.8476704,1,New Zealand,True
+4736,2023-03-25,Zimbabwe,Netherlands,Harare Sports Club,Zimbabwe,1,0.47910756,0,Netherlands,False
+4737,2023-03-26,Namibia,United States,Wanderers Cricket Ground,United States,0,0.6225133,1,Namibia,False
+4738,2023-03-27,Papua New Guinea,United Arab Emirates,Wanderers Cricket Ground,United Arab Emirates,0,0.42734465,0,United Arab Emirates,True
+4739,2023-03-27,Canada,Jersey,United Cricket Club,Canada,1,0.3727157,0,Jersey,False
+4741,2023-03-29,Canada,United States,Wanderers Cricket Ground,Canada,1,0.42146245,0,United States,False
+4742,2023-03-29,Namibia,Papua New Guinea,United Cricket Club,Namibia,1,0.71955675,1,Namibia,True
+4743,2023-03-30,Namibia,Jersey,Wanderers Cricket Ground,Namibia,1,0.6225133,1,Namibia,True
+4744,2023-03-30,United Arab Emirates,United States,United Cricket Club,United States,0,0.4260155,0,United States,True
+4745,2023-03-31,New Zealand,Sri Lanka,Seddon Park,New Zealand,1,0.8702385,1,New Zealand,True
+4746,2023-03-31,South Africa,Netherlands,Willowmoore Park,South Africa,1,0.8400312,1,South Africa,True
+4747,2023-04-01,Canada,United Arab Emirates,Wanderers Cricket Ground,United Arab Emirates,0,0.5937324,1,Canada,False
+4748,2023-04-01,Jersey,Papua New Guinea,United Cricket Club,Jersey,1,0.72387576,1,Jersey,True
+4749,2023-04-02,Papua New Guinea,United States,Wanderers Cricket Ground,United States,0,0.37769005,0,United States,True
+4750,2023-04-02,Namibia,United Arab Emirates,United Cricket Club,United Arab Emirates,0,0.6975047,1,Namibia,False
+4751,2023-04-02,South Africa,Netherlands,Wanderers Stadium,South Africa,1,0.8400312,1,South Africa,True
+4752,2023-04-04,Namibia,Canada,Wanderers Cricket Ground,Namibia,1,0.7123074,1,Namibia,True
+4753,2023-04-04,Jersey,United States,United Cricket Club,United States,0,0.6225133,1,Jersey,False
+4754,2023-04-05,Jersey,United Arab Emirates,Wanderers Cricket Ground,United Arab Emirates,0,0.6156724,1,Jersey,False
+4755,2023-04-05,Canada,Papua New Guinea,United Cricket Club,Canada,1,0.6173176,1,Canada,True
+4756,2023-04-21,Nepal,Oman,Tribhuvan University International Cricket Ground,Nepal,1,0.6160566,1,Nepal,True
+4757,2023-04-27,Pakistan,New Zealand,Rawalpindi Cricket Stadium,Pakistan,1,0.5276656,1,Pakistan,True
+4758,2023-04-29,Pakistan,New Zealand,Rawalpindi Cricket Stadium,Pakistan,1,0.55888945,1,Pakistan,True
+4759,2023-04-29,Oman,United Arab Emirates,Mulpani Cricket Ground,United Arab Emirates,0,0.64222074,1,Oman,False
+4760,2023-05-01,Nepal,United Arab Emirates,Tribhuvan University International Cricket Ground,Nepal,1,0.6786574,1,Nepal,True
+4761,2023-05-03,Pakistan,New Zealand,National Stadium,Pakistan,1,0.63806844,1,Pakistan,True
+4762,2023-05-05,Pakistan,New Zealand,National Stadium,Pakistan,1,0.6901979,1,Pakistan,True
+4763,2023-05-07,Pakistan,New Zealand,National Stadium,New Zealand,0,0.6896435,1,Pakistan,False
+4765,2023-05-12,Ireland,Bangladesh,County Ground,Bangladesh,0,0.27752984,0,Bangladesh,True
+4766,2023-05-14,Ireland,Bangladesh,County Ground,Bangladesh,0,0.27752984,0,Bangladesh,True
+4767,2023-06-02,Sri Lanka,Afghanistan,Mahinda Rajapaksha International Cricket Stadium,Afghanistan,0,0.6225133,1,Sri Lanka,False
+4768,2023-06-04,Sri Lanka,Afghanistan,Mahinda Rajapaksha International Cricket Stadium,Sri Lanka,1,0.5908616,1,Sri Lanka,True
+4769,2023-06-04,United Arab Emirates,West Indies,Sharjah Cricket Stadium,West Indies,0,0.4767934,0,West Indies,True
+4770,2023-06-06,United Arab Emirates,West Indies,Sharjah Cricket Stadium,West Indies,0,0.4394671,0,West Indies,True
+4771,2023-06-07,Sri Lanka,Afghanistan,Mahinda Rajapaksha International Cricket Stadium,Sri Lanka,1,0.6225133,1,Sri Lanka,True
+4772,2023-06-09,United Arab Emirates,West Indies,Sharjah Cricket Stadium,West Indies,0,0.4260155,0,West Indies,True
+4773,2023-06-18,Zimbabwe,Nepal,Harare Sports Club,Zimbabwe,1,0.33226764,0,Nepal,False
+4774,2023-06-18,West Indies,United States,Takashinga Sports Club,West Indies,1,0.6225133,1,West Indies,True
+4775,2023-06-19,Sri Lanka,United Arab Emirates,Queens Sports Club,Sri Lanka,1,0.7091738,1,Sri Lanka,True
+4776,2023-06-19,Ireland,Oman,Bulawayo Athletic Club,Oman,0,0.42239285,0,Oman,True
+4777,2023-06-20,Zimbabwe,Netherlands,Harare Sports Club,Zimbabwe,1,0.6102307,1,Zimbabwe,True
+4778,2023-06-20,Nepal,United States,Takashinga Sports Club,Nepal,1,0.63221,1,Nepal,True
+4779,2023-06-21,Ireland,Scotland,Queens Sports Club,Scotland,0,0.29765764,0,Scotland,True
+4780,2023-06-21,Oman,United Arab Emirates,Bulawayo Athletic Club,Oman,1,0.6975047,1,Oman,True
+4781,2023-06-22,Nepal,West Indies,Harare Sports Club,West Indies,0,0.63221,1,Nepal,False
+4782,2023-06-22,Netherlands,United States,Takashinga Sports Club,Netherlands,1,0.42146245,0,United States,False
+4783,2023-06-23,Oman,Sri Lanka,Queens Sports Club,Sri Lanka,0,0.45974043,0,Sri Lanka,True
+4784,2023-06-23,Scotland,United Arab Emirates,Bulawayo Athletic Club,Scotland,1,0.76349795,1,Scotland,True
+4785,2023-06-24,Zimbabwe,West Indies,Harare Sports Club,Zimbabwe,1,0.3783145,0,West Indies,False
+4786,2023-06-24,Nepal,Netherlands,Takashinga Sports Club,Netherlands,0,0.73549527,1,Nepal,False
+4787,2023-06-25,Ireland,Sri Lanka,Queens Sports Club,Sri Lanka,0,0.3593841,0,Sri Lanka,True
+4788,2023-06-25,Oman,Scotland,Bulawayo Athletic Club,Scotland,0,0.35906097,0,Scotland,True
+4789,2023-06-26,Zimbabwe,United States,Harare Sports Club,Zimbabwe,1,0.42912233,0,United States,False
+4791,2023-06-27,Scotland,Sri Lanka,Queens Sports Club,Sri Lanka,0,0.62548304,1,Scotland,False
+4792,2023-06-27,Ireland,United Arab Emirates,Bulawayo Athletic Club,Ireland,1,0.59014994,1,Ireland,True
+4793,2023-06-29,Zimbabwe,Oman,Queens Sports Club,Zimbabwe,1,0.4307006,0,Oman,False
+4794,2023-06-30,Netherlands,Sri Lanka,Queens Sports Club,Sri Lanka,0,0.28977868,0,Sri Lanka,True
+4795,2023-06-30,Ireland,United States,Takashinga Sports Club,Ireland,1,0.42222187,0,United States,False
+4796,2023-07-01,Scotland,West Indies,Harare Sports Club,Scotland,1,0.6727996,1,Scotland,True
+4797,2023-07-02,Zimbabwe,Sri Lanka,Queens Sports Club,Sri Lanka,0,0.33479983,0,Sri Lanka,True
+4798,2023-07-02,Nepal,United Arab Emirates,Takashinga Sports Club,Nepal,1,0.74078846,1,Nepal,True
+4799,2023-07-03,Netherlands,Oman,Harare Sports Club,Netherlands,1,0.41587085,0,Oman,False
+4800,2023-07-04,Zimbabwe,Scotland,Queens Sports Club,Scotland,0,0.33479983,0,Scotland,True
+4801,2023-07-04,Ireland,Nepal,Takashinga Sports Club,Ireland,1,0.41425052,0,Nepal,False
+4802,2023-07-05,Oman,West Indies,Harare Sports Club,West Indies,0,0.48252743,0,West Indies,True
+4803,2023-07-05,Bangladesh,Afghanistan,Zahur Ahmed Chowdhury Stadium,Afghanistan,0,0.8189526,1,Bangladesh,False
+4804,2023-07-06,Netherlands,Scotland,Queens Sports Club,Netherlands,1,0.28762916,0,Scotland,False
+4805,2023-07-06,United Arab Emirates,United States,Takashinga Sports Club,United Arab Emirates,1,0.41262066,0,United States,False
+4806,2023-07-07,Sri Lanka,West Indies,Harare Sports Club,Sri Lanka,1,0.6727996,1,Sri Lanka,True
+4807,2023-07-08,Bangladesh,Afghanistan,Zahur Ahmed Chowdhury Stadium,Afghanistan,0,0.7686747,1,Bangladesh,False
+4808,2023-07-09,Netherlands,Sri Lanka,Harare Sports Club,Sri Lanka,0,0.29146487,0,Sri Lanka,True
+4809,2023-07-11,Bangladesh,Afghanistan,Zahur Ahmed Chowdhury Stadium,Bangladesh,1,0.69211155,1,Bangladesh,True
+4810,2023-07-27,West Indies,India,Kensington Oval,India,0,0.3048411,0,India,True
+4811,2023-07-29,West Indies,India,Kensington Oval,West Indies,1,0.3048411,0,India,False
+4812,2023-08-01,West Indies,India,Brian Lara Stadium,India,0,0.32467073,0,India,True
+4813,2023-08-22,Afghanistan,Pakistan,Mahinda Rajapaksha International Cricket Stadium,Pakistan,0,0.2930966,0,Pakistan,True
+4814,2023-08-24,Afghanistan,Pakistan,Mahinda Rajapaksha International Cricket Stadium,Pakistan,0,0.2930966,0,Pakistan,True
+4815,2023-08-26,Afghanistan,Pakistan,R Premadasa Stadium,Pakistan,0,0.2821083,0,Pakistan,True
+4816,2023-08-30,Pakistan,Nepal,Multan Cricket Stadium,Pakistan,1,0.83017313,1,Pakistan,True
+4817,2023-08-31,Sri Lanka,Bangladesh,Pallekele International Cricket Stadium,Sri Lanka,1,0.5509347,1,Sri Lanka,True
+4819,2023-09-03,Afghanistan,Bangladesh,Gaddafi Stadium,Bangladesh,0,0.35906097,0,Bangladesh,True
+4820,2023-09-04,India,Nepal,Pallekele International Cricket Stadium,India,1,0.8321193,1,India,True
+4821,2023-09-05,Sri Lanka,Afghanistan,Gaddafi Stadium,Sri Lanka,1,0.77807903,1,Sri Lanka,True
+4822,2023-09-06,Pakistan,Bangladesh,Gaddafi Stadium,Pakistan,1,0.7073097,1,Pakistan,True
+4823,2023-09-07,South Africa,Australia,Mangaung Oval,Australia,0,0.48963872,0,Australia,True
+4824,2023-09-08,England,New Zealand,Unknown,New Zealand,0,0.66811943,1,England,False
+4825,2023-09-09,Sri Lanka,Bangladesh,R Premadasa Stadium,Sri Lanka,1,0.64187247,1,Sri Lanka,True
+4826,2023-09-09,South Africa,Australia,Mangaung Oval,Australia,0,0.50151867,1,South Africa,False
+4827,2023-09-10,India,Pakistan,R Premadasa Stadium,India,1,0.6073794,1,India,True
+4828,2023-09-10,England,New Zealand,Unknown,England,1,0.63806844,1,England,True
+4829,2023-09-12,Sri Lanka,India,R Premadasa Stadium,India,0,0.48370737,0,India,True
+4830,2023-09-12,South Africa,Australia,Senwes Park,South Africa,1,0.50151867,1,South Africa,True
+4831,2023-09-13,England,New Zealand,Kennington Oval,England,1,0.66811943,1,England,True
+4832,2023-09-14,Sri Lanka,Pakistan,R Premadasa Stadium,Sri Lanka,1,0.42352474,0,Pakistan,False
+4833,2023-09-15,Bangladesh,India,R Premadasa Stadium,Bangladesh,1,0.3642721,0,India,False
+4834,2023-09-15,South Africa,Australia,SuperSport Park,South Africa,1,0.50151867,1,South Africa,True
+4835,2023-09-15,England,New Zealand,Unknown,England,1,0.68320864,1,England,True
+4836,2023-09-17,South Africa,Australia,Wanderers Stadium,South Africa,1,0.5418081,1,South Africa,True
+4837,2023-09-17,Sri Lanka,India,R Premadasa Stadium,India,0,0.496779,1,Sri Lanka,False
+4840,2023-09-22,India,Australia,Punjab Cricket Association IS Bindra Stadium,India,1,0.6778287,1,India,True
+4841,2023-09-23,Bangladesh,New Zealand,Shere Bangla National Stadium,New Zealand,0,0.45395097,0,New Zealand,True
+4842,2023-09-23,England,Ireland,Unknown,England,1,0.83056915,1,England,True
+4843,2023-09-24,India,Australia,Holkar Cricket Stadium,India,1,0.6843224,1,India,True
+4844,2023-09-26,Bangladesh,New Zealand,Shere Bangla National Stadium,New Zealand,0,0.44856036,0,New Zealand,True
+4846,2023-09-27,India,Australia,Saurashtra Cricket Association Stadium,Australia,0,0.69022185,1,India,False
+4847,2023-10-05,England,New Zealand,Narendra Modi Stadium,New Zealand,0,0.6896435,1,England,False
+4848,2023-10-06,Netherlands,Pakistan,Rajiv Gandhi International Stadium,Pakistan,0,0.24008103,0,Pakistan,True
+4849,2023-10-07,Afghanistan,Bangladesh,Himachal Pradesh Cricket Association Stadium,Bangladesh,0,0.32959324,0,Bangladesh,True
+4850,2023-10-07,South Africa,Sri Lanka,Arun Jaitley Stadium,South Africa,1,0.661499,1,South Africa,True
+4851,2023-10-08,India,Australia,MA Chidambaram Stadium,India,1,0.6843224,1,India,True
+4852,2023-10-09,Netherlands,New Zealand,Rajiv Gandhi International Stadium,New Zealand,0,0.28794095,0,New Zealand,True
+4853,2023-10-10,Bangladesh,England,Himachal Pradesh Cricket Association Stadium,England,0,0.44418773,0,England,True
+4854,2023-10-10,Pakistan,Sri Lanka,Rajiv Gandhi International Stadium,Pakistan,1,0.69776183,1,Pakistan,True
+4855,2023-10-11,India,Afghanistan,Arun Jaitley Stadium,India,1,0.8288853,1,India,True
+4856,2023-10-12,Australia,South Africa,Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium,South Africa,0,0.641369,1,Australia,False
+4857,2023-10-13,Bangladesh,New Zealand,MA Chidambaram Stadium,New Zealand,0,0.41846278,0,New Zealand,True
+4858,2023-10-14,India,Pakistan,Narendra Modi Stadium,India,1,0.6377221,1,India,True
+4859,2023-10-15,Afghanistan,England,Arun Jaitley Stadium,Afghanistan,1,0.28551325,0,England,False
+4860,2023-10-16,Australia,Sri Lanka,Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium,Australia,1,0.6646982,1,Australia,True
+4861,2023-10-17,Netherlands,South Africa,Himachal Pradesh Cricket Association Stadium,Netherlands,1,0.28794095,0,South Africa,False
+4862,2023-10-18,Afghanistan,New Zealand,MA Chidambaram Stadium,New Zealand,0,0.30623487,0,New Zealand,True
+4863,2023-10-19,India,Bangladesh,Maharashtra Cricket Association Stadium,India,1,0.76730585,1,India,True
+4864,2023-10-20,Australia,Pakistan,M Chinnaswamy Stadium,Australia,1,0.58284926,1,Australia,True
+4865,2023-10-21,Netherlands,Sri Lanka,Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium,Sri Lanka,0,0.29146487,0,Sri Lanka,True
+4866,2023-10-21,England,South Africa,Wankhede Stadium,South Africa,0,0.66811943,1,England,False
+4867,2023-10-22,India,New Zealand,Himachal Pradesh Cricket Association Stadium,India,1,0.69260377,1,India,True
+4868,2023-10-23,Afghanistan,Pakistan,MA Chidambaram Stadium,Afghanistan,1,0.25642923,0,Pakistan,False
+4869,2023-10-24,Bangladesh,South Africa,Wankhede Stadium,South Africa,0,0.41846278,0,South Africa,True
+4870,2023-10-25,Australia,Netherlands,Arun Jaitley Stadium,Australia,1,0.83551854,1,Australia,True
+4871,2023-10-26,England,Sri Lanka,M Chinnaswamy Stadium,Sri Lanka,0,0.661499,1,England,False
+4872,2023-10-27,Pakistan,South Africa,MA Chidambaram Stadium,South Africa,0,0.55888945,1,Pakistan,False
+4873,2023-10-28,Australia,New Zealand,Himachal Pradesh Cricket Association Stadium,Australia,1,0.67128706,1,Australia,True
+4874,2023-10-28,Bangladesh,Netherlands,Unknown,Netherlands,0,0.76349795,1,Bangladesh,False
+4875,2023-10-29,India,England,Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium,India,1,0.7461479,1,India,True
+4876,2023-10-30,Afghanistan,Sri Lanka,Maharashtra Cricket Association Stadium,Afghanistan,1,0.35906097,0,Sri Lanka,False
+4877,2023-10-31,Bangladesh,Pakistan,Unknown,Pakistan,0,0.34435415,0,Pakistan,True
+4878,2023-11-01,New Zealand,South Africa,Maharashtra Cricket Association Stadium,South Africa,0,0.6442699,1,New Zealand,False
+4879,2023-11-02,India,Sri Lanka,Wankhede Stadium,India,1,0.7604464,1,India,True
+4880,2023-11-03,Afghanistan,Netherlands,Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium,Afghanistan,1,0.6929986,1,Afghanistan,True
+4881,2023-11-04,New Zealand,Pakistan,M Chinnaswamy Stadium,Pakistan,0,0.6985853,1,New Zealand,False
+4882,2023-11-04,Australia,England,Narendra Modi Stadium,Australia,1,0.6607431,1,Australia,True
+4883,2023-11-05,India,South Africa,Unknown,India,1,0.6860897,1,India,True
+4884,2023-11-06,Bangladesh,Sri Lanka,Arun Jaitley Stadium,Bangladesh,1,0.36096925,0,Sri Lanka,False
+4885,2023-11-07,Afghanistan,Australia,Wankhede Stadium,Australia,0,0.3194652,0,Australia,True
+4886,2023-11-08,England,Netherlands,Maharashtra Cricket Association Stadium,England,1,0.8312331,1,England,True
+4887,2023-11-09,New Zealand,Sri Lanka,M Chinnaswamy Stadium,New Zealand,1,0.7810673,1,New Zealand,True
+4888,2023-11-10,Afghanistan,South Africa,Narendra Modi Stadium,South Africa,0,0.32791784,0,South Africa,True
+4889,2023-11-11,Australia,Bangladesh,Maharashtra Cricket Association Stadium,Australia,1,0.79650015,1,Australia,True
+4890,2023-11-11,England,Pakistan,Unknown,England,1,0.509337,1,England,True
+4891,2023-11-12,India,Netherlands,M Chinnaswamy Stadium,India,1,0.8354563,1,India,True
+4892,2023-11-15,India,New Zealand,Wankhede Stadium,India,1,0.77544564,1,India,True
+4893,2023-11-16,Australia,South Africa,Unknown,Australia,1,0.66454,1,Australia,True
+4894,2023-11-19,India,Australia,Narendra Modi Stadium,Australia,0,0.6777144,1,India,False
+4895,2023-12-03,West Indies,England,Sir Vivian Richards Stadium,West Indies,1,0.3849324,0,England,False
+4896,2023-12-06,West Indies,England,Sir Vivian Richards Stadium,England,0,0.34875366,0,England,True
+4897,2023-12-09,West Indies,England,Kensington Oval,West Indies,1,0.35499913,0,England,False
+4899,2023-12-15,Zimbabwe,Ireland,Harare Sports Club,Ireland,0,0.597709,1,Zimbabwe,False
+4900,2023-12-17,New Zealand,Bangladesh,University Oval,New Zealand,1,0.8317024,1,New Zealand,True
+4901,2023-12-17,Zimbabwe,Ireland,Harare Sports Club,Ireland,0,0.50861126,1,Zimbabwe,False
+4902,2023-12-17,South Africa,India,Wanderers Stadium,India,0,0.49559784,1,South Africa,False
+4903,2023-12-19,South Africa,India,Unknown,South Africa,1,0.49559784,1,South Africa,True
+4904,2023-12-20,New Zealand,Bangladesh,Saxton Oval,New Zealand,1,0.84470606,1,New Zealand,True
+4905,2023-12-21,South Africa,India,Boland Park,India,0,0.49559784,1,South Africa,False
+4906,2023-12-23,New Zealand,Bangladesh,McLean Park,Bangladesh,0,0.84470606,1,New Zealand,False
+4908,2024-01-08,Sri Lanka,Zimbabwe,R Premadasa Stadium,Sri Lanka,1,0.82564104,1,Sri Lanka,True
+4909,2024-01-11,Sri Lanka,Zimbabwe,R Premadasa Stadium,Sri Lanka,1,0.83192396,1,Sri Lanka,True
+4910,2024-02-02,Australia,West Indies,Melbourne Cricket Ground,Australia,1,0.8025951,1,Australia,True
+4911,2024-02-04,Australia,West Indies,Sydney Cricket Ground,Australia,1,0.8025951,1,Australia,True
+4912,2024-02-06,Australia,West Indies,Manuka Oval,Australia,1,0.8025951,1,Australia,True
+4913,2024-02-08,Nepal,Canada,Tribhuvan University International Cricket Ground,Nepal,1,0.7123074,1,Nepal,True
+4914,2024-02-09,Sri Lanka,Afghanistan,Pallekele International Cricket Stadium,Sri Lanka,1,0.6991961,1,Sri Lanka,True
+4915,2024-02-10,Nepal,Canada,Tribhuvan University International Cricket Ground,Nepal,1,0.74078846,1,Nepal,True
+4916,2024-02-11,Sri Lanka,Afghanistan,Pallekele International Cricket Stadium,Sri Lanka,1,0.7418955,1,Sri Lanka,True
+4917,2024-02-12,Nepal,Canada,Tribhuvan University International Cricket Ground,Nepal,1,0.74078846,1,Nepal,True
+4918,2024-02-14,Sri Lanka,Afghanistan,Pallekele International Cricket Stadium,Sri Lanka,1,0.7418955,1,Sri Lanka,True
+4919,2024-02-15,Nepal,Namibia,Tribhuvan University International Cricket Ground,Namibia,0,0.64601845,1,Nepal,False
+4920,2024-02-17,Nepal,Netherlands,Tribhuvan University International Cricket Ground,Nepal,1,0.6975047,1,Nepal,True
+4921,2024-02-19,Namibia,Netherlands,Tribhuvan University International Cricket Ground,Netherlands,0,0.6975047,1,Namibia,False
+4922,2024-02-21,Nepal,Namibia,Tribhuvan University International Cricket Ground,Namibia,0,0.64601845,1,Nepal,False
+4923,2024-02-23,Namibia,Netherlands,Tribhuvan University International Cricket Ground,Namibia,1,0.6929986,1,Namibia,True
+4924,2024-02-25,Nepal,Netherlands,Tribhuvan University International Cricket Ground,Netherlands,0,0.6975047,1,Nepal,False
+4925,2024-02-28,United Arab Emirates,Canada,Dubai International Cricket Stadium,Canada,0,0.6102307,1,United Arab Emirates,False
+4926,2024-03-01,Canada,Scotland,Dubai International Cricket Stadium,Canada,1,0.27886572,0,Scotland,False
+4927,2024-03-03,United Arab Emirates,Scotland,Dubai International Cricket Stadium,Scotland,0,0.33226764,0,Scotland,True
+4928,2024-03-05,United Arab Emirates,Canada,Dubai International Cricket Stadium,Canada,0,0.5190535,1,United Arab Emirates,False
+4929,2024-03-07,Canada,Scotland,Dubai International Cricket Stadium,Canada,1,0.3440871,0,Scotland,False
+4930,2024-03-07,Afghanistan,Ireland,Sharjah Cricket Stadium,Afghanistan,1,0.60636044,1,Afghanistan,True
+4931,2024-03-12,Afghanistan,Ireland,Sharjah Cricket Stadium,Afghanistan,1,0.63705915,1,Afghanistan,True
+4933,2024-03-13,Bangladesh,Sri Lanka,Zahur Ahmed Chowdhury Stadium,Bangladesh,1,0.3747967,0,Sri Lanka,False
+4934,2024-03-15,Bangladesh,Sri Lanka,Zahur Ahmed Chowdhury Stadium,Sri Lanka,0,0.43819666,0,Sri Lanka,True
+4935,2024-03-18,Bangladesh,Sri Lanka,Zahur Ahmed Chowdhury Stadium,Bangladesh,1,0.39606443,0,Sri Lanka,False
+4937,2024-07-18,Namibia,Oman,Unknown,Namibia,1,0.63705915,1,Namibia,True
+4938,2024-07-20,Scotland,Namibia,Unknown,Scotland,1,0.5681389,1,Scotland,True
+4939,2024-07-22,Scotland,Oman,Unknown,Scotland,1,0.6990427,1,Scotland,True
+4940,2024-07-24,Namibia,Oman,Unknown,Oman,0,0.67954844,1,Namibia,False
+4941,2024-07-26,Scotland,Namibia,Unknown,Scotland,1,0.6727996,1,Scotland,True
+4943,2024-08-04,Sri Lanka,India,R Premadasa Stadium,Sri Lanka,1,0.35896283,0,India,False
+4944,2024-08-07,Sri Lanka,India,R Premadasa Stadium,Sri Lanka,1,0.4281819,0,India,False
+4945,2024-08-11,Netherlands,Canada,Unknown,Netherlands,1,0.5982222,1,Netherlands,True
+4946,2024-08-13,Canada,United States,Unknown,United States,0,0.47426587,0,United States,True
+4947,2024-08-15,Netherlands,United States,Unknown,Netherlands,1,0.5557784,1,Netherlands,True
+4948,2024-08-17,Netherlands,Canada,Unknown,Netherlands,1,0.6262021,1,Netherlands,True
+4949,2024-08-19,Canada,United States,Unknown,United States,0,0.47380236,0,United States,True
+4950,2024-08-21,Netherlands,United States,Unknown,Netherlands,1,0.61256343,1,Netherlands,True
+4951,2024-09-16,Namibia,United States,United Cricket Club,United States,0,0.64155143,1,Namibia,False
+4952,2024-09-16,Canada,Nepal,West Ground,Canada,1,0.42146245,0,Nepal,False
+4953,2024-09-18,United Arab Emirates,United States,United Cricket Club,United States,0,0.41262066,0,United States,True
+4954,2024-09-18,Afghanistan,South Africa,Sharjah Cricket Stadium,Afghanistan,1,0.33465672,0,South Africa,False
+4955,2024-09-18,Nepal,Oman,West Ground,Oman,0,0.6094,1,Nepal,False
+4956,2024-09-19,England,Australia,Unknown,Australia,0,0.4908195,1,England,False
+4957,2024-09-20,Namibia,United Arab Emirates,United Cricket Club,United Arab Emirates,0,0.7149377,1,Namibia,False
+4958,2024-09-20,Afghanistan,South Africa,Sharjah Cricket Stadium,Afghanistan,1,0.34670332,0,South Africa,False
+4959,2024-09-20,Canada,Oman,West Ground,Canada,1,0.41262066,0,Oman,False
+4960,2024-09-21,England,Australia,Unknown,Australia,0,0.4908195,1,England,False
+4961,2024-09-22,Namibia,United States,United Cricket Club,United States,0,0.58825284,1,Namibia,False
+4962,2024-09-22,Afghanistan,South Africa,Sharjah Cricket Stadium,South Africa,0,0.38264036,0,South Africa,True
+4963,2024-09-22,Canada,Nepal,West Ground,Canada,1,0.42584413,0,Nepal,False
+4964,2024-09-24,England,Australia,Riverside Ground,England,1,0.43250778,0,Australia,False
+4965,2024-09-24,United Arab Emirates,United States,United Cricket Club,United States,0,0.41262066,0,United States,True
+4967,2024-09-26,Namibia,United Arab Emirates,Wanderers Cricket Ground,Namibia,1,0.6744388,1,Namibia,True
+4968,2024-09-26,Canada,Oman,West Ground,Canada,1,0.46868575,0,Oman,False
+4969,2024-09-27,England,Australia,Unknown,England,1,0.4908195,1,England,True
+4970,2024-09-29,England,Australia,County Ground,Australia,0,0.50151867,1,England,False
+4971,2024-10-02,Ireland,South Africa,Sheikh Zayed Stadium,South Africa,0,0.28882375,0,South Africa,True
+4972,2024-10-04,Ireland,South Africa,Sheikh Zayed Stadium,South Africa,0,0.2849096,0,South Africa,True
+4973,2024-10-07,Ireland,South Africa,Sheikh Zayed Stadium,Ireland,1,0.2849096,0,South Africa,False
+4974,2024-10-20,Sri Lanka,West Indies,Pallekele International Cricket Stadium,Sri Lanka,1,0.7792286,1,Sri Lanka,True
+4975,2024-10-23,Sri Lanka,West Indies,Pallekele International Cricket Stadium,Sri Lanka,1,0.79670286,1,Sri Lanka,True
+4976,2024-10-25,United States,Scotland,Grand Prairie Stadium,Scotland,0,0.33416715,0,Scotland,True
+4977,2024-10-26,Sri Lanka,West Indies,Pallekele International Cricket Stadium,West Indies,0,0.8189526,1,Sri Lanka,False
+4978,2024-10-27,United States,Nepal,Grand Prairie Stadium,United States,1,0.61256343,1,United States,True
+4979,2024-10-29,Nepal,Scotland,Grand Prairie Stadium,Nepal,1,0.33479983,0,Scotland,False
+4980,2024-10-31,United States,Scotland,Grand Prairie Stadium,Scotland,0,0.33416715,0,Scotland,True
+4981,2024-10-31,West Indies,England,Sir Vivian Richards Stadium,West Indies,1,0.35499913,0,England,False
+4982,2024-11-01,Oman,United Arab Emirates,Al Amerat Cricket Ground,Oman,1,0.6744388,1,Oman,True
+4983,2024-11-02,West Indies,England,Sir Vivian Richards Stadium,England,0,0.34875366,0,England,True
+4984,2024-11-02,United States,Nepal,Grand Prairie Stadium,United States,1,0.58825284,1,United States,True
+4985,2024-11-03,United Arab Emirates,Netherlands,Al Amerat Cricket Ground,United Arab Emirates,1,0.41587085,0,Netherlands,False
+4986,2024-11-04,Australia,Pakistan,Melbourne Cricket Ground,Australia,1,0.6853171,1,Australia,True
+4988,2024-11-05,Oman,Netherlands,Al Amerat Cricket Ground,Oman,1,0.5557784,1,Oman,True
+4989,2024-11-06,Afghanistan,Bangladesh,Sharjah Cricket Stadium,Afghanistan,1,0.4043709,0,Bangladesh,False
+4990,2024-11-06,West Indies,England,Kensington Oval,West Indies,1,0.34875366,0,England,False
+4991,2024-11-07,Oman,United Arab Emirates,Al Amerat Cricket Ground,Oman,1,0.6744388,1,Oman,True
+4992,2024-11-08,Australia,Pakistan,Adelaide Oval,Pakistan,0,0.6975358,1,Australia,False
+4993,2024-11-09,Netherlands,United Arab Emirates,Al Amerat Cricket Ground,Netherlands,1,0.6744388,1,Netherlands,True
+4994,2024-11-09,Afghanistan,Bangladesh,Sharjah Cricket Stadium,Bangladesh,0,0.59413266,1,Afghanistan,False
+4995,2024-11-10,Australia,Pakistan,Perth Stadium,Pakistan,0,0.67538106,1,Australia,False
+4996,2024-11-11,Oman,Netherlands,Al Amerat Cricket Ground,Oman,1,0.58825284,1,Oman,True
+4997,2024-11-11,Afghanistan,Bangladesh,Sharjah Cricket Stadium,Afghanistan,1,0.4043709,0,Bangladesh,False
+4998,2024-11-13,Sri Lanka,New Zealand,Rangiri Dambulla International Stadium,Sri Lanka,1,0.560054,1,Sri Lanka,True
+4999,2024-11-17,Sri Lanka,New Zealand,Pallekele International Cricket Stadium,Sri Lanka,1,0.6090316,1,Sri Lanka,True

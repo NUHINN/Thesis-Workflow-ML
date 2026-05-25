@@ -1,0 +1,26 @@
+{
+    "feature_columns": [
+        "team1",
+        "team2",
+        "venue",
+        "team1_elo_pre",
+        "team2_elo_pre",
+        "elo_diff"
+    ],
+    "categorical_features_used": [
+        "team1",
+        "team2",
+        "venue"
+    ],
+    "elo_features_used": [
+        "team1_elo_pre",
+        "team2_elo_pre",
+        "elo_diff"
+    ],
+    "target": "target_team1_win",
+    "initial_elo": 1500.0,
+    "elo_k_factor": 24.0,
+    "allow_toss_features": false,
+    "decision_threshold": 0.4900000000000001,
+    "note": "Only Elo ratings are engineered. Scorecard/post-match columns are not used."
+}

@@ -1,0 +1,40 @@
+
+XGBoost Regularized Massey Matrix Model Summary
+==============================================
+
+Feature engineering used:
+- Pre-match Regularized Massey Matrix team-strength only
+
+Not used:
+- Elo ratings
+- Recent-form EWMA ratings
+- Bayesian historical strength features
+- Opponent-adjusted historical strength features
+- Colley Matrix features
+- Toss winner
+- team1_bat_first
+- Current-match batting/bowling/scorecard columns
+- match_winner/match_result as features
+
+Best hyperparameters selected from validation only:
+- Massey prior_strength: 60.0
+- XGBoost config: regularized_depth2_small
+- Probability threshold: 0.481011
+
+Rows used after cleaning: 1891
+Train + validation rows: 1512
+Test rows: 379
+Test period: 2022-06-16 to 2024-11-17
+
+Final performance:
+- Train + validation accuracy: 0.6885
+- Test accuracy: 0.6966
+- Test balanced accuracy: 0.6777
+- Test ROC-AUC: 0.7160
+
+Academic safety notes:
+- Features are saved before the current match result is used.
+- Chronological split is used instead of random split.
+- The test set is not used to fit the model.
+- Repeatedly trying many feature families against the same test period can still cause research overfitting. For final thesis reporting, keep this limitation clear.
+- team1_bat_first is constant in the source dataset, so team ordering may reflect innings order. This code excludes team1_bat_first and toss_winner, but strict before-toss prediction should ideally randomize or standardize team ordering independent of innings.

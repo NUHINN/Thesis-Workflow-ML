@@ -1,0 +1,22 @@
+{
+    "feature_engineering_used": "Pre-match Regularized Massey Matrix team-strength only",
+    "elo_used": false,
+    "recent_form_used": false,
+    "bayesian_history_win_rate_features_used": false,
+    "opponent_adjusted_historical_strength_used": false,
+    "colley_matrix_features_used": false,
+    "best_massey_prior_strength_selected_from_validation_only": 60.0,
+    "best_xgboost_config_selected_from_validation_only": "regularized_depth2_small",
+    "probability_threshold_selected_from_validation_only": 0.48101067543029785,
+    "model_selection_metric": "validation_accuracy_at_selected_threshold_then_validation_roc_auc_then_validation_balanced_accuracy_at_selected_threshold",
+    "rows_used_after_cleaning": 1891,
+    "train_validation_rows": 1512,
+    "test_rows": 379,
+    "train_validation_accuracy": 0.6884920634920635,
+    "test_accuracy": 0.6965699208443272,
+    "test_balanced_accuracy": 0.6776683789954339,
+    "test_roc_auc": 0.7160388127853882,
+    "test_start_date": "2022-06-16",
+    "test_end_date": "2024-11-17",
+    "important_warning": "team1_bat_first is constant in the source dataset and team ordering may reflect innings order. This code excludes team1_bat_first and toss_winner. For strict before-toss prediction, team ordering should ideally be made independent of innings order."
+}

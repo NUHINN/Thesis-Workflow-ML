@@ -1,0 +1,44 @@
+{
+  "model": "Existing XGBoost with venue history features only",
+  "feature_engineering_family": "Pre-match Venue History Features",
+  "leakage_safety": "Venue features are computed chronologically before each match, then histories are updated after the match.",
+  "removed_feature_families": [
+    "Elo",
+    "Recent Form",
+    "Bayesian Historical Strength",
+    "Opponent-Adjusted Historical Strength",
+    "Colley Matrix Strength",
+    "Regularized Massey Matrix Strength",
+    "Head-to-head History"
+  ],
+  "rows_after_cleaning": 1891,
+  "removed_rows": 88,
+  "train_rows": 1210,
+  "validation_rows": 302,
+  "train_validation_rows": 1512,
+  "test_rows": 379,
+  "test_start_date": "2022-06-16",
+  "test_end_date": "2024-11-17",
+  "best_prior_matches": 10.0,
+  "best_feature_set": "venue_core",
+  "best_xgb_config": "regularized_depth2_medium",
+  "selected_probability_threshold_from_validation": 0.525,
+  "train_validation_accuracy": 0.6706349206349206,
+  "test_accuracy": 0.6068601583113457,
+  "test_balanced_accuracy": 0.5882562785388128,
+  "test_roc_auc": 0.6345462328767123,
+  "numeric_features_used": [
+    "venue_avg_first_innings_score_before",
+    "venue_chasing_win_rate_before",
+    "venue_bat_first_win_rate_before",
+    "team1_venue_win_rate_before",
+    "team2_venue_win_rate_before"
+  ],
+  "categorical_features_used": [
+    "team1",
+    "team2",
+    "venue"
+  ],
+  "excluded_leakage_columns_note": "All batting/bowling scorecard columns, match_winner, match_result, match_outcome_type, toss_winner, and team1_bat_first are excluded from model input.",
+  "strict_before_toss_warning": "The original dataset has team1_bat_first=1 for all rows, so team1/team2 order may reflect innings order. This code excludes toss and batting-first columns, but strict before-toss research should eventually randomize or canonicalize team order independently of innings order."
+}

@@ -1,0 +1,5 @@
+split,rows,start_date,end_date
+train,1210,1993-05-19,2019-02-16
+validation,302,2019-02-20,2022-06-15
+train_validation,1512,1993-05-19,2022-06-15
+test,379,2022-06-16,2024-11-17

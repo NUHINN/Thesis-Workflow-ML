@@ -1,0 +1,166 @@
+feature,importance
+team2_venue_win_rate_before,0.07147887
+team1_Zimbabwe,0.06255052
+team2_Zimbabwe,0.059314672
+team2_Afghanistan,0.05659181
+team2_India,0.048341226
+team2_West Indies,0.04813421
+team2_Australia,0.04678537
+team1_Australia,0.046364866
+team1_India,0.04514288
+team1_New Zealand,0.04142161
+team1_venue_win_rate_before,0.038014878
+venue_avg_first_innings_score_before,0.03785238
+team1_England,0.035103917
+team2_South Africa,0.034874167
+team1_South Africa,0.03422245
+team2_Papua New Guinea,0.033845507
+team2_Kenya,0.03352254
+team2_England,0.032651436
+team1_Sri Lanka,0.031277526
+team1_West Indies,0.031170564
+team2_Pakistan,0.028402394
+venue_chasing_win_rate_before,0.02462746
+venue_bat_first_win_rate_before,0.023402488
+team1_Afghanistan,0.022579772
+team1_Bangladesh,0.018060455
+venue_Unknown,0.014266021
+team1_Pakistan,0.0
+team1_Ireland,0.0
+team1_Hong Kong,0.0
+team1_UAE,0.0
+team1_Oman,0.0
+team1_Netherlands,0.0
+team1_Nepal,0.0
+team1_Kenya,0.0
+team1_Namibia,0.0
+team1_Canada,0.0
+team1_Bermuda,0.0
+team2_Ireland,0.0
+team2_Hong Kong,0.0
+team2_Bangladesh,0.0
+team2_Canada,0.0
+team1_Papua New Guinea,0.0
+team1_Scotland,0.0
+team1_United States,0.0
+team2_Netherlands,0.0
+team2_New Zealand,0.0
+team2_Oman,0.0
+team2_Nepal,0.0
+team2_Scotland,0.0
+team2_UAE,0.0
+team2_Sri Lanka,0.0
+team2_United States,0.0
+team2_Namibia,0.0
+venue_Adelaide Oval,0.0
+venue_Affies Park,0.0
+venue_Al Amerat Cricket Ground,0.0
+venue_Amini Park,0.0
+venue_Arnos Vale Ground,0.0
+venue_Arun Jaitley Stadium,0.0
+venue_Barabati Stadium,0.0
+venue_Barsapara Cricket Stadium,0.0
+venue_Bay Oval,0.0
+venue_Bayuemas Oval,0.0
+venue_Bellerive Oval,0.0
+venue_Bert Sutcliffe Oval,0.0
+venue_Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium,0.0
+venue_Boland Park,0.0
+venue_Brabourne Stadium,0.0
+venue_AMI Stadium,0.0
+venue_Brisbane Cricket Ground,0.0
+venue_Buffalo Park,0.0
+venue_Bulawayo Athletic Club,0.0
+venue_Cambusdoon New Ground,0.0
+venue_Captain Roop Singh Stadium,0.0
+venue_Central Broward Regional Park,0.0
+venue_Choice Moosa Stadium,0.0
+venue_Civil Service Cricket Club,0.0
+venue_Cobham Oval,0.0
+venue_County Ground,0.0
+venue_Curling Club,0.0
+venue_Daren Sammy Cricket Ground,0.0
+venue_Diamond Oval,0.0
+venue_Dr YS Rajasekhara Reddy Cricket Stadium,0.0
+venue_Dubai International Cricket Stadium,0.0
+venue_Eden Park,0.0
+venue_Gaddafi Stadium,0.0
+venue_Galle International Stadium,0.0
+venue_Grange Cricket Club,0.0
+venue_Greater Noida Sports Complex Ground,0.0
+venue_Green Park,0.0
+venue_Greenfield International Stadium,0.0
+venue_Gymkhana Club Ground,0.0
+venue_Hagley Oval,0.0
+venue_Harare Sports Club,0.0
+venue_Himachal Pradesh Cricket Association Stadium,0.0
+venue_Holkar Cricket Stadium,0.0
+venue_JSCA International Stadium,0.0
+venue_Kennington Oval,0.0
+venue_Kensington Oval,0.0
+venue_Khan Shaheb Osman Ali Stadium,0.0
+venue_Bready Cricket Club,0.0
+venue_Kinrara Academy Oval,0.0
+venue_M Chinnaswamy Stadium,0.0
+venue_Madhavrao Scindia Cricket Ground,0.0
+venue_MA Chidambaram Stadium,0.0
+venue_Mahinda Rajapaksha International Cricket Stadium,0.0
+venue_Mangaung Oval,0.0
+venue_Mannofield Park,0.0
+venue_Maharashtra Cricket Association Stadium,0.0
+venue_McLean Park,0.0
+venue_Melbourne Cricket Ground,0.0
+venue_Mombasa Sports Ground,0.0
+venue_Multan Cricket Stadium,0.0
+venue_Narendra Modi Stadium,0.0
+venue_National Cricket Stadium,0.0
+venue_National Stadium,0.0
+venue_Manuka Oval,0.0
+venue_Old Hararians Sports Club,0.0
+venue_Pallekele International Cricket Stadium,0.0
+venue_Park Oval,0.0
+venue_Perth Stadium,0.0
+venue_Providence Stadium,0.0
+venue_Punjab Cricket Association IS Bindra Stadium,0.0
+venue_Queens Sports Club,0.0
+venue_Queenstown Events Centre,0.0
+venue_R Premadasa Stadium,0.0
+venue_Rajiv Gandhi International Cricket Stadium,0.0
+venue_Rajiv Gandhi International Stadium,0.0
+venue_Rangiri Dambulla International Stadium,0.0
+venue_Rawalpindi Cricket Stadium,0.0
+venue_Reliance Stadium,0.0
+venue_Riverside Ground,0.0
+venue_Nehru Stadium,0.0
+venue_Riverway Stadium,0.0
+venue_Sabina Park,0.0
+venue_Sawai Mansingh Stadium,0.0
+venue_Saurashtra Cricket Association Stadium,0.0
+venue_Seddon Park,0.0
+venue_Senwes Park,0.0
+venue_Sharjah Cricket Stadium,0.0
+venue_Saxton Oval,0.0
+venue_Sheikh Zayed Stadium,0.0
+venue_Shere Bangla National Stadium,0.0
+venue_Sinhalese Sports Club Ground,0.0
+venue_Sir Vivian Richards Stadium,0.0
+venue_Sky Stadium,0.0
+venue_SuperSport Park,0.0
+venue_Sydney Cricket Ground,0.0
+venue_Sheikh Abu Naser Stadium,0.0
+venue_Sylhet Stadium,0.0
+venue_The Cooper Associates County Ground,0.0
+venue_Tribhuvan University International Cricket Ground,0.0
+venue_University Oval,0.0
+venue_VRA Ground,0.0
+venue_Vidarbha Cricket Association Stadium,0.0
+venue_WACA Ground,0.0
+venue_Wanderers Cricket Ground,0.0
+venue_Wanderers Stadium,0.0
+venue_Wankhede Stadium,0.0
+venue_Warner Park,0.0
+venue_West End Park International Cricket Stadium,0.0
+venue_West Ground,0.0
+venue_Willowmoore Park,0.0
+venue_Windsor Park,0.0
+venue_Zahur Ahmed Chowdhury Stadium,0.0

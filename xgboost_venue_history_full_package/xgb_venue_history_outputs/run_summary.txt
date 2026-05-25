@@ -1,0 +1,39 @@
+XGBoost Venue History Model Summary
+===================================
+
+Feature engineering family used:
+Pre-match Venue History Features only
+
+Selected engineered features:
+- venue_avg_first_innings_score_before
+- venue_chasing_win_rate_before
+- venue_bat_first_win_rate_before
+- team1_venue_win_rate_before
+- team2_venue_win_rate_before
+
+Raw pre-match context columns used:
+- team1
+- team2
+- venue
+
+Rows after cleaning: 1891
+Removed unresolved/invalid rows: 88
+Train + validation rows: 1512
+Test rows: 379
+Test period: 2022-06-16 to 2024-11-17
+
+Best prior selected from validation only: 10.0
+Best feature set: venue_core
+Best XGBoost config: regularized_depth2_medium
+Selected probability threshold from validation only: 0.525000
+
+Train + validation accuracy: 0.6706
+Test accuracy: 0.6069
+Test balanced accuracy: 0.5883
+Test ROC-AUC: 0.6345
+
+Leakage-control note:
+Venue features are calculated before each match using only previous matches at the same venue and previous team-at-venue records. Current match scores/results are used only after the current row's features are saved, so they can affect future rows only.
+
+Important thesis warning:
+The original dataset has team1_bat_first = 1 for every row, so team1/team2 order may reflect innings order. This code excludes toss_winner and team1_bat_first, but a strict before-toss thesis should eventually canonicalize or randomize team order independently of innings order.

@@ -1,0 +1,37 @@
+{
+    "feature_engineering_used": "Pre-match Bayesian historical team-strength only",
+    "elo_used": false,
+    "recent_form_used": false,
+    "best_prior_matches_selected_from_validation_only": 16.0,
+    "prior_win_rate": 0.5,
+    "rows_used_after_cleaning": 1891,
+    "train_validation_rows": 1512,
+    "test_rows": 379,
+    "train_validation_accuracy": 0.6785714285714286,
+    "test_accuracy": 0.6675461741424802,
+    "test_balanced_accuracy": 0.6424514840182648,
+    "test_roc_auc": 0.6958476027397261,
+    "features_used": [
+        "team1",
+        "team2",
+        "venue",
+        "team1_history_win_rate_pre",
+        "team2_history_win_rate_pre",
+        "history_win_rate_diff",
+        "team1_matches_played_pre",
+        "team2_matches_played_pre",
+        "matches_played_diff"
+    ],
+    "excluded_for_leakage_reason": "All scorecard/player performance columns, toss_winner, team1_bat_first, match_result, match_outcome_type, and match_winner as feature",
+    "cleaning_notes": [
+        "West is standardised to West Indies",
+        "broken scraped venue menu text is replaced with Unknown",
+        "only resolved matches where winner equals team1 or team2 are kept",
+        "chronological train/validation/test split is used"
+    ],
+    "anti_leakage_notes": [
+        "Bayesian historical features are written before updating with the current match result",
+        "No current-match scorecard field is used",
+        "Later test matches may use earlier test-period results because those results would be known before the later match date in a chronological pre-match simulation"
+    ]
+}

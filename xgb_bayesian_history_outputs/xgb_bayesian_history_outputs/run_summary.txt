@@ -1,0 +1,65 @@
+XGBoost Bayesian Historical Team-Strength Model Summary
+=======================================================
+
+Model type:
+- Plain existing XGBoost binary classifier
+- Target: team1_won, where 1 means team1 won and 0 means team2 won
+
+Single feature-engineering family used:
+- Pre-match Bayesian historical team-strength only
+
+Engineered features:
+- team1_history_win_rate_pre
+- team2_history_win_rate_pre
+- history_win_rate_diff
+- team1_matches_played_pre
+- team2_matches_played_pre
+- matches_played_diff
+
+Not used:
+- Elo ratings
+- Recent-form EWMA ratings
+- batting scorecard columns
+- bowling scorecard columns
+- player scorecard columns
+- match_result
+- match_outcome_type
+- match_winner as a feature
+- toss_winner
+- team1_bat_first
+
+Cleaning performed:
+- Team names cleaned
+- 'West' standardised to 'West Indies'
+- Broken scraped venue menu text converted to 'Unknown'
+- Date parsed with day-first format
+- Only resolved matches where winner is team1 or team2 are kept
+- Same-team errors removed
+
+Anti-leakage logic:
+- Features for each match are saved before updating that match's result
+- Chronological train/validation/test split is used
+- Bayesian smoothing prior is selected using validation data only
+- The test set is not used to select the smoothing value or model settings
+- Later test-period rows can use earlier test-period match results because this is chronological pre-match simulation
+
+Dataset:
+- Clean/resolved rows used: 1891
+- Train + validation rows: 1512
+- Test rows: 379
+- Test period: 2022-06-16 to 2024-11-17
+
+Selected setting:
+- best_prior_matches: 16.0
+- prior_win_rate: 0.5
+
+Final results:
+- Train + validation accuracy: 0.6786 (67.86%)
+- Test accuracy: 0.6675 (66.75%)
+- Test balanced accuracy: 0.6425 (64.25%)
+- Test ROC-AUC: 0.6958
+
+Important thesis warning:
+- Your dataset has team1_bat_first = 1 for every row, so team1/team2 may still reflect batting order.
+- This code excludes team1_bat_first and toss_winner.
+- For strict before-toss prediction, team ordering should ideally be randomized or made independent of innings order.

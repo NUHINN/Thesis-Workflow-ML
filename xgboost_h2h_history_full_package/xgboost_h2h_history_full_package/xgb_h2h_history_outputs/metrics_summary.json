@@ -1,0 +1,41 @@
+{
+    "feature_engineering_used": "Pre-match Head-to-head historical features only",
+    "elo_used": false,
+    "recent_form_ewma_used": false,
+    "bayesian_history_win_rate_features_used": false,
+    "opponent_adjusted_historical_strength_used": false,
+    "colley_matrix_features_used": false,
+    "massey_matrix_features_used": false,
+    "best_h2h_prior_matches_selected_from_validation_only": 10.0,
+    "h2h_recent_window": 5,
+    "h2h_recent_prior_matches": 2.0,
+    "best_h2h_feature_set_selected_from_validation_only": "h2h_core_with_diff",
+    "best_categorical_set_selected_from_validation_only": "team_venue_plus_h2h_pair_key",
+    "best_xgboost_config_selected_from_validation_only": "regularized_depth2_small",
+    "probability_threshold_selected_from_validation_only": 0.49,
+    "model_selection_metric": "validation_accuracy_at_selected_threshold_then_validation_roc_auc_then_validation_balanced_accuracy_at_selected_threshold",
+    "categorical_features_used": [
+        "team1",
+        "team2",
+        "venue",
+        "h2h_pair_key"
+    ],
+    "numeric_h2h_features_used": [
+        "team1_h2h_win_rate_before_match",
+        "team2_h2h_win_rate_before_match",
+        "h2h_win_rate_diff_before_match",
+        "h2h_matches_played_before",
+        "h2h_recent_win_rate_last_5",
+        "h2h_recent_win_rate_diff_last_5"
+    ],
+    "rows_used_after_cleaning": 1891,
+    "train_validation_rows": 1512,
+    "test_rows": 379,
+    "train_validation_accuracy": 0.6653439153439153,
+    "test_accuracy": 0.6437994722955145,
+    "test_balanced_accuracy": 0.6193778538812785,
+    "test_roc_auc": 0.6761700913242009,
+    "test_start_date": "2022-06-16",
+    "test_end_date": "2024-11-17",
+    "important_warning": "team1_bat_first is constant in the source dataset and team ordering may reflect innings order. This code excludes team1_bat_first and toss_winner. For strict before-toss prediction, team ordering should ideally be made independent of innings order."
+}

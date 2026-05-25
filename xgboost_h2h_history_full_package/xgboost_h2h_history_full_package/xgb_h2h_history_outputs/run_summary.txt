@@ -1,0 +1,50 @@
+
+XGBoost Head-to-Head Historical Features Model Summary
+======================================================
+
+Feature engineering used:
+- Pre-match head-to-head historical features only
+
+Not used:
+- Elo ratings
+- Recent-form EWMA ratings
+- Bayesian historical strength features
+- Opponent-adjusted historical strength features
+- Colley Matrix features
+- Regularized Massey Matrix features
+- Toss winner
+- team1_bat_first
+- Current-match batting/bowling/scorecard columns
+- match_winner/match_result as features
+
+Best settings selected from validation only:
+- H2H prior_matches: 10.0
+- H2H recent window: 5
+- H2H feature set: h2h_core_with_diff
+- Categorical feature set: team_venue_plus_h2h_pair_key
+- XGBoost config: regularized_depth2_small
+- Probability threshold: 0.490000
+
+Numeric H2H features used:
+['team1_h2h_win_rate_before_match', 'team2_h2h_win_rate_before_match', 'h2h_win_rate_diff_before_match', 'h2h_matches_played_before', 'h2h_recent_win_rate_last_5', 'h2h_recent_win_rate_diff_last_5']
+
+Categorical features used:
+['team1', 'team2', 'venue', 'h2h_pair_key']
+
+Rows used after cleaning: 1891
+Train + validation rows: 1512
+Test rows: 379
+Test period: 2022-06-16 to 2024-11-17
+
+Final performance:
+- Train + validation accuracy: 0.6653
+- Test accuracy: 0.6438
+- Test balanced accuracy: 0.6194
+- Test ROC-AUC: 0.6762
+
+Academic safety notes:
+- Head-to-head values are saved before the current match result is used.
+- Chronological split is used instead of random split.
+- The test set is not used to fit the model or choose the probability threshold.
+- Head-to-head history can be weak for teams that rarely played each other, so this feature family is academically useful but may not outperform formal rating systems like Massey or Colley.
+- team1_bat_first is constant in the source dataset, so team ordering may reflect innings order. This code excludes team1_bat_first and toss_winner, but strict before-toss prediction should ideally randomize or standardize team ordering independent of innings.

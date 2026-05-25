@@ -1,0 +1,67 @@
+XGBoost Opponent-Adjusted Historical Team-Strength Model Summary
+================================================================
+
+Model type:
+- Plain existing XGBoost binary classifier
+- Target: team1_won, where 1 means team1 won and 0 means team2 won
+
+Single feature-engineering family used:
+- Pre-match opponent-adjusted historical team-strength only
+
+Engineered features:
+- team1_opponent_adjusted_strength_pre
+- team2_opponent_adjusted_strength_pre
+- opponent_adjusted_strength_diff
+- team1_quality_matches_pre
+- team2_quality_matches_pre
+- quality_matches_diff
+
+Not used:
+- Elo ratings
+- Recent-form EWMA ratings
+- Bayesian historical win-rate features as model features
+- batting scorecard columns from the current match
+- bowling scorecard columns from the current match
+- player scorecard columns from the current match
+- match_result
+- match_outcome_type
+- match_winner as a feature
+- toss_winner
+- team1_bat_first
+
+Cleaning performed:
+- Team names cleaned
+- 'West' standardised to 'West Indies'
+- Broken scraped venue menu text converted to 'Unknown'
+- Date parsed with day-first format
+- Only resolved matches where winner is team1 or team2 are kept
+- Same-team errors removed
+
+Anti-leakage logic:
+- Features for each match are saved before updating that match's result
+- Chronological train/validation/test split is used
+- Smoothing prior is selected using validation ROC-AUC only
+- The test set is not used to select the smoothing value or model settings
+- Later test-period rows can use earlier test-period match results because this is chronological pre-match simulation
+
+Dataset:
+- Clean/resolved rows used: 1891
+- Train + validation rows: 1512
+- Test rows: 379
+- Test period: 2022-06-16 to 2024-11-17
+
+Selected setting:
+- best_prior_matches: 16.0
+- prior_base_rate: 0.5
+- selection metric: validation_roc_auc
+
+Final results:
+- Train + validation accuracy: 0.6792 (67.92%)
+- Test accuracy: 0.6913 (69.13%)
+- Test balanced accuracy: 0.6739 (67.39%)
+- Test ROC-AUC: 0.7072
+
+Important thesis warning:
+- Your dataset has team1_bat_first = 1 for every row, so team1/team2 may still reflect batting order.
+- This code excludes team1_bat_first and toss_winner.
+- For strict before-toss prediction, team ordering should ideally be randomized or made independent of innings order.
